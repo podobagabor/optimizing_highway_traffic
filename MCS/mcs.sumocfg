@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="mcs.net.xml"/>
+        <route-files value="mcs.rou.xml"/>
+        <additional-files value="mcs.add.xml"/>
+    </input>
+</configuration>

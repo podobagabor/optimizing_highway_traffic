@@ -1,0 +1,34 @@
+<routes>
+    <vType id="normal_car"
+        vClass="passenger" length="5" accel="0.8" 
+        sigma="0.5" maxSpeed="40" speedFactor="1"
+        treaction="1.3"/>
+
+    <vType id="sportly_car"
+        vClass="passenger" length="5" accel="0.8" 
+        sigma="0.6" maxSpeed="40" speedFactor="1.3"
+        treaction="1.3"/>
+
+    <vType id="bus"
+        vClass="coach" accel="0.8" 
+        sigma="0.6" maxSpeed="27.78" speedFactor="1"
+        treaction="1.3"/>
+
+    <vType id="truck"
+        vClass="trailer" accel="0.8" 
+        sigma="0.5" maxSpeed="26.4" speedFactor="1"
+        treaction="1.3"/>
+
+    <route id="route_0" edges="eDepart eStart eDetected eSpeedControlledInflow eSpeedControlled eInflow eBottleneck eEnd" />
+    <route id="route_1" edges=" eStart eDetected eSpeedControlledInflow eSpeedControlled eInflow eBottleneck eEnd" />
+    
+    <flow id="normal_carflow0"  type="normal_car" vehsPerHour="2000" begin="0" end="4000" route="route_1" departLane="best"/>
+    <flow id="sportly_carflow"  type="sportly_car" vehsPerHour="250" begin="0" end="4000" route="route_1" departLane="best"/>
+    <flow id="truck_flow"  type="truck" vehsPerHour="500" begin="0" end="4000" route="route_1" departLane="best"/>
+    <flow id="bus_flow"  type="bus" vehsPerHour="250" begin="0" end="4000" route="route_1" departLane="best"/>
+    
+    <flow id="normal_carflow1" departSpeed="max" departPos="last" number="1500" type="normal_car"  begin="2500" end="3500" route="route_0" departLane="best"/>
+    <flow id="normal_carflow2" departSpeed="max" departPos="last" number="1500" type="normal_car"  begin="8300" end="9300" route="route_0" departLane="best"/>
+
+
+</routes>

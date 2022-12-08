@@ -1,0 +1,6 @@
+<additionals>
+    <e2Detector id="det_0" lane="e3_0" pos="900" endPos="950" freq="50" file="det.out.xml" />
+    <e2Detector id="det_1" lane="e3_1" pos="900" endPos="950" freq="50" file="det.out.xml" />
+   
+
+</additionals>

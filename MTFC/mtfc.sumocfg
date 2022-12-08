@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="mtfc.net.xml"/>
+        <route-files value="mtfc.rou.xml"/>
+        <additional-files value="mtfc.add.xml"/>
+    </input>
+</configuration>

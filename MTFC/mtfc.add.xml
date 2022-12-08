@@ -1,0 +1,15 @@
+<additionals>
+    
+    <e1Detector id="det_0" lane="eDetected_0" pos="990"  period="60" file="det.out1.xml"/>
+    <e1Detector id="det_1" lane="eDetected_1" pos="990"  period="60" file="det.out1.xml"/>
+    <e1Detector id="det_2" lane="eDetected_2" pos="990"  period="60" file="det.out1.xml"/>
+
+    <e1Detector id="det_3" lane="eInflow_0" pos="0"  period="60" file="det.out1.xml"/>
+    <e1Detector id="det_4" lane="eInflow_1" pos="0"  period="60" file="det.out1.xml"/>
+    <e1Detector id="det_5" lane="eInflow_2" pos="0"  period="60" file="det.out1.xml"/>
+
+    <e2Detector id="det_6" lane="eInflow_0" pos="0" end="699" period="60" file="det.out.xml"/>
+    <e2Detector id="det_7" lane="eInflow_1" pos="0"  end="699" period="60" file="det.out.xml"/>
+     <e2Detector id="det_8" lane="eInflow_2" pos="0"  end="699" period="60" file="det.out.xml"/>
+
+</additionals>
