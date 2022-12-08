@@ -51,7 +51,7 @@ def refreshSpeed(edge):
         if (traci.vehicle.getTypeID(id) == "bus"):
             traci.vehicle.setSpeed(id, 27.78)
         if (traci.vehicle.getTypeID(id) == "truck"):
-            traci.vehicle.setSpeed(id, 26.4)
+            traci.vehicle.setSpeed(id, 22.22)
 
 
 def toFile(number):
